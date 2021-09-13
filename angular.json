@@ -20,11 +20,13 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "node_modules/bootstrap/dist/css/bootstrap.min.js",
+              "src/styles.css"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ],
             "scripts": []
           },
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angularbootstrap"
+    }
+  },
+  "defaultProject": "Angularbootstrap",
+  "cli": {
+    "analytics": "63ea2706-5615-4397-acf3-c61ea60429f1"
+  }
 }
